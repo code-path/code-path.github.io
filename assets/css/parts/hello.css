@@ -1,0 +1,86 @@
+/*-------------------------------------------------------------------------*/
+/* Hello
+/*-------------------------------------------------------------------------*/
+.section-hello {
+	width: 100%;
+	height: auto;
+	min-height: 100vh;
+
+	top: 0;
+	left: 0;
+	position: absolute;
+
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	-ms-flex-line-pack: center;
+	align-content: center;
+
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.section-hello .hello-type {
+	color: #fee;
+	opacity: 0;
+	font-size: 15rem;
+	font-family: var(--font-family-primary);
+	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+
+/*-------------------------------------------------------------------------*/
+/* Animations
+/*-------------------------------------------------------------------------*/
+.fadeIn {
+	opacity: 1 !important;
+	animation: 3s fadeIn;
+	-o-animation: 3s fadeIn;
+	-ms-animation: 3s fadeIn;
+	-moz-animation: 3s fadeIn;
+	-webkit-animation: 3s fadeIn;
+}
+
+.fadeOut {
+	opacity: 0 !important;
+	animation: 2s fadeOut;
+	-o-animation: 2s fadeOut;
+	-ms-animation: 2s fadeOut;
+	-moz-animation: 2s fadeOut;
+	-webkit-animation: 2s fadeOut;
+}
+
+.glow {
+	animation: 2s glow infinite;
+	-o-animation: 2s glow infinite;
+	-ms-animation: 2s glow infinite;
+	-moz-animation: 2s glow infinite;
+	-webkit-animation: 2s glow infinite;
+}
+
+@keyframes fadeIn         { 0% {opacity: 0;} 100% {opacity: 1;} }
+@-o-keyframes fadeIn      { 0% {opacity: 0;} 100% {opacity: 1;} }
+@-ms-keyframes fadeIn     { 0% {opacity: 0;} 100% {opacity: 1;} }
+@-moz-keyframes fadeIn    { 0% {opacity: 0;} 100% {opacity: 1;} }
+@-webkit-keyframes fadeIn { 0% {opacity: 0;} 100% {opacity: 1;} }
+
+@keyframes fadeOut         { 0% {opacity: 1;} 100% {opacity: 0;} }
+@-o-keyframes fadeOut      { 0% {opacity: 1;} 100% {opacity: 0;} }
+@-ms-keyframes fadeOut     { 0% {opacity: 1;} 100% {opacity: 0;} }
+@-moz-keyframes fadeOut    { 0% {opacity: 1;} 100% {opacity: 0;} }
+@-webkit-keyframes fadeOut { 0% {opacity: 1;} 100% {opacity: 0;} }
+
+@keyframes glow         { 0% {opacity: 1;} 50% {opacity: 0.7;} 100% {opacity: 1;} }
+@-o-keyframes glow      { 0% {opacity: 1;} 50% {opacity: 0.7;} 100% {opacity: 1;} }
+@-ms-keyframes glow     { 0% {opacity: 1;} 50% {opacity: 0.7;} 100% {opacity: 1;} }
+@-moz-keyframes glow    { 0% {opacity: 1;} 50% {opacity: 0.7;} 100% {opacity: 1;} }
+@-webkit-keyframes glow { 0% {opacity: 1;} 50% {opacity: 0.7;} 100% {opacity: 1;} }

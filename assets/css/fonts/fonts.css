@@ -1,0 +1,30 @@
+/*-------------------------------------------------------------------------*/
+/* Fonts
+/*-------------------------------------------------------------------------*/
+@font-face {
+	font-family: 'Vibur';
+	src: url('../../fonts/Vibur/Regular/Vibur.eot');
+	src: local('Vibur'),
+		 url('../../fonts/Vibur/Regular/Vibur.eot?#iefix') format('embedded-opentype'),
+		 url('../../fonts/Vibur/Regular/Vibur.woff2') format('woff2'),
+		 url('../../fonts/Vibur/Regular/Vibur.woff') format('woff'),
+		 url('../../fonts/Vibur/Regular/Vibur.ttf') format('truetype'),
+		 url('../../fonts/Vibur/Regular/Vibur.svg#Vibur') format('svg');
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neon Tubes 2';
+	src: url('../../fonts/NeonTubes2/Regular/NeonTubes2-Regular.eot');
+	src: local('Neon Tubes 2 Regular'), local('NeonTubes2-Regular'),
+		 url('../../fonts/NeonTubes2/Regular/NeonTubes2-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../../fonts/NeonTubes2/Regular/NeonTubes2-Regular.woff2') format('woff2'),
+		 url('../../fonts/NeonTubes2/Regular/NeonTubes2-Regular.woff') format('woff'),
+		 url('../../fonts/NeonTubes2/Regular/NeonTubes2-Regular.ttf') format('truetype'),
+		 url('../../fonts/NeonTubes2/Regular/NeonTubes2-Regular.svg#NeonTubes2-Regular') format('svg');
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
