@@ -1,0 +1,60 @@
+/*-------------------------------------------------------------------------*/
+/* Hello
+/*-------------------------------------------------------------------------*/
+.section-hello {
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+
+	top: 0;
+	left: 0;
+
+	position: absolute;
+
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	-ms-flex-line-pack: center;
+	align-content: center;
+
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+} .section-hello.fadeOut {opacity: 0;}
+
+.section-hello .hello-type {
+	color: #fee;
+	opacity: 0;
+	font-size: 4rem;
+	font-family: var(--font-family-primary);
+	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+} .section-hello .hello-type.fadeIn {opacity: 1;}
+
+/* Hello: Responsive (desktop)
+/*---------------------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+	.section-hello {}
+
+	.section-hello .hello-type {
+		font-size: 10rem;
+	}
+}
+
+/* Hello: Responsive (desktop)
+/*---------------------------------------------------------------*/
+@media only screen and (min-width: 992px) {
+	.section-hello {}
+
+	.section-hello .hello-type {
+		font-size: 15rem;
+	}
+}

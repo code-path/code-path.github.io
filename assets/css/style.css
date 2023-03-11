@@ -1,0 +1,32 @@
+/*
+	@Theme Name  : Dorna
+	@Theme URI   : -
+	@Author      : E. Darksider
+	@Author URI  : https://d4rksider.deviantart.com
+	@Description : -
+	@Version     : 1.0.0
+	@License     : Proprietary software License
+	@License URI : https://en.wikipedia.org/wiki/Proprietary_software
+
+-------------------------------------------------------------------------
+
+	01. Import parts
+*/
+
+/*-------------------------------------------------------------------------*/
+/* 01. Import parts
+/*-------------------------------------------------------------------------*/
+@charset "UTF-8";
+
+/* Theme fonts */
+@import url('./fonts/fonts.css');
+
+/* Theme globals */
+@import url('./global/general.css');
+@import url('./global/utilities.css');
+
+/* Theme parts */
+@import url('./parts/dorna.css');
+@import url('./parts/hello.css');
+@import url('./parts/copyright.css');
+@import url('./parts/particles.css');

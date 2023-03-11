@@ -1,0 +1,34 @@
+/*-------------------------------------------------------------------------*/
+/* Copyright
+/*-------------------------------------------------------------------------*/
+.copyright {
+	width: auto;
+	height: auto;
+
+	color: #fff;
+
+	right: 0;
+	bottom: 0;
+
+	z-index: 999;
+
+	padding: 0.5rem 1rem;
+
+	position: fixed;
+
+	-webkit-border-radius: 5px 0 0 0;
+	border-radius: 5px 0 0 0;
+
+	background-color: rgba(255, 255, 255, 0.15);
+}
+
+.copyright i {
+	color: #ce00ff;
+	font-size: inherit;
+	vertical-align: middle;
+}
+
+.copyright span {
+	color: #ce00ff;
+	vertical-align: middle;
+}

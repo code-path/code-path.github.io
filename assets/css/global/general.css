@@ -1,0 +1,153 @@
+/*-------------------------------------------------------------------------*/
+/* Define variables
+/*-------------------------------------------------------------------------*/
+:root {
+	/* Fonts */
+	--font-family-primary: 'Vibur', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	--font-family-secondary: 'Neon Tubes 2', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+	/* Colors */
+	--color-base: #8288b5;
+
+	--color-idle: #ffffff;
+	--color-active: #75a4ff;
+	--color-inactive: #434961;
+
+	--color-primary: #ffffff;
+	--color-secondary: #4699fe;
+
+	/* Backgrounds */
+	--background-base: #000;
+	--background-light: #202020;
+	--background-shade: #181818;
+	--background-shadow: #101010;
+
+	/* Breakpoints */
+	--breakpoint-xs: 0;
+	--breakpoint-sm: 576px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 992px;
+	--breakpoint-xl: 1200px;
+}
+
+/*-------------------------------------------------------------------------*/
+/* Browser reset
+/*-------------------------------------------------------------------------*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+
+	outline: none !important;
+
+	position: relative;
+
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
+	line-height: 1.5;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+} *:focus {outline: none;}
+
+ul {
+	list-style: none;
+}
+
+/*-------------------------------------------------------------------------*/
+/* Globally applied styles
+/*-------------------------------------------------------------------------*/
+html,
+body {
+	color: var(--color-base);
+
+	font-size: 1rem;
+
+	overflow-y: auto;
+	overflow-x: hidden;
+
+	font-weight: 400;
+	line-height: 1.5;
+	font-family: var(--font-family-primary);
+
+	background-color: var(--background-base);
+}
+
+html {
+	min-height: -webkit-calc(100vh - calc(100vh - 100%));
+	min-height: -moz-calc(100vh - calc(100vh - 100%));
+	min-height: calc(100vh - calc(100vh - 100%));
+}
+
+body {
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+
+	position: fixed;
+
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+
+	background-color: var(--background-base);
+}
+
+/* Global: Hyperlink
+/*---------------------------------------------------------------*/
+a {
+	color: var(--color-idle);
+	text-decoration: none !important;
+} a:hover {color: var(--color-active);}
+
+/* Global: Image
+/*---------------------------------------------------------------*/
+img {
+	border: none;
+	vertical-align: middle;
+	background-color: transparent;
+}
+
+/* Global: Selection
+/*---------------------------------------------------------------*/
+::selection {
+	color: var(--color-primary);
+	background-color: var(--background-light);
+}
+
+::-moz-selection {
+	color: var(--color-primary);
+	background-color: var(--background-light);
+}
+
+/* Global: Scrollbar
+/*---------------------------------------------------------------*/
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: var(--background-shadow);
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+	cursor: pointer;
+	border: 4px solid var(--background-shadow);
+	background-color: var(--background-light);
+}
