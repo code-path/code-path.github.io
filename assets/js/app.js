@@ -106,10 +106,14 @@ let App = (function()
 
             // Strings
             strings: [
-                'The day my life changed forever... the day I first saw you.',
-                'I love you, not only for what you are, but for what I am when I am with you.',
-                'I wish you to know that you have been the last dream of my soul.',
-                'I want you today, tomorrow, next week and for the rest of my life.'
+                'I wish I was your mirror, so that I could look at you every morning.',
+                'Sweet dreams… I hope I’m in them.',
+                'I really like our friendship, especially when we make out.',
+                'If I had a candy bar for every time I thought of you, I would be fat.',
+                'I wish I was your teddy bear.',
+                'It’s said that nothing lasts forever. Will you be my nothing?',
+                'Hi, I’m Mr. Right. Someone said you were looking for me?',
+                'I guess your parents are bakers, because they made you such a cutie pie!'
             ]
         });
     }
