@@ -97,6 +97,7 @@ let App = (function()
             loop: true,
             shuffle: true,
             typeSpeed: 100,
+            showCursor: false,
             startDelay: 500,
             showCursor: true,
 
